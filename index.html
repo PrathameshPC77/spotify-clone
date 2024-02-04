@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - My favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify"> Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="song_list">
+            <h1>Best of No Copyright Sounds</h1>
+            <div class="song_item_container">
+                <div class="song_item">
+                    <img alt="1">
+                    <span class="song_name">Tum Prem Ho ❤ (Love Mashup)</span>
+                    <span class="song_list_play"><span class="time_stamp"> 03:58 <i id="0" class="far song_item_play fa-circle-play"></i></span></span>
+                </div>
+                <div class="song_item">
+                    <img alt="1">
+                    <span class="song_name">OONCHI OONCHI DEEWAREIN: Yaariyan 2</span>
+                    <span class="song_list_play"><span class="time_stamp"> 03:15 <i id="1" class="far song_item_play fa-circle-play"></i></span></span>
+                </div>
+                <div class="song_item">
+                    <img alt="1">
+                    <span class="song_name">Abhi Na Jao Chhod Kar | Audio Song</span>
+                    <span class="song_list_play"><span class="time_stamp"> 04:31 <i id="2" class="far song_item_play fa-circle-play"></i></span></span>
+                </div>
+                <div class="song_item">
+                    <img alt="1">
+                    <span class="song_name">TERE HAWALE | (Slowed+Reverb)</span>
+                    <span class="song_list_play"><span class="time_stamp"> 06:18 <i id="3"  class="far song_item_play fa-circle-play"></i></span></span>
+                </div>
+                <div class="song_item">
+                    <img alt="1">
+                    <span class="song_name">Ek Phool X I Like Me Better (Love Mashup)</span>
+                    <span class="song_list_play"><span class="time_stamp"> 03:15 <i id="4" class="far song_item_play fa-circle-play"></i></span></span>
+                </div>
+                <div class="song_item">
+                    <img alt="1">
+                    <span class="song_name">Saudebaazi [Lofi + Slowed + Reverb]</span>
+                    <span class="song_list_play"><span class="time_stamp"> 06:31 <i id="5" class="far song_item_play fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div> 
+        <div class="song_banner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" title="range" id="my_progress_bar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-2x fa-solid fa-backward-step" id="previous"></i>
+            <i class="far fa-2x fa-regular fa-circle-play" id="master_play"></i>
+            <i class="fas fa-2x fa-solid fa-forward-step" id="next"></i>
+        </div>
+        <div class="song_info">
+            <img src="playing2.gif" width="42px"  alt="" id="gif"> <span id="master_song_name">Tum Prem Ho ❤ (Love Mashup)</span>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/5f62249de1.js" crossorigin="anonymous"></script>
+</body>
+</html>
